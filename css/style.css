@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Montserrat:wght@400;700&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 16px;
+}
+html {
+    max-width: 1580px;
+    height: 1028px;
+}
+.ftr {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.main_div-content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.links {
+    display:inline-flex;
+    text-decoration: none;
+    margin-left: 230px;
+}
+.links-logo {
+    background-image: url(../img/ovsanoe.png);
+    background-repeat: no-repeat;
+    max-width: 75px; height: 75px;
+}
+.links :hover {
+    background-color: black;
+    color: black;
+}
+main {
+    background-color: rgb(236, 236, 236);
+}
+
+.section_main-cookiie {
+    object-position: center bottom;
+    margin-left: 180px;
+}
+.link_img {
+    padding-right:  30px;
+}
+.main_txt {
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: dotted chocolate;
+    font-weight: 900;
+}
+.main_txt:hover {
+    color: blue;
+}
+.tbl-p_cntnt {
+    padding-top: 10px;
+}
+b {
+    font-weight: 900;
+}
+.about_main-content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ftr__content {
+    text-align: center;
+}
+.ftr {
+    text-align: center;
+}
+.link__name-team {
+    text-align: center;
+    padding: 60px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.link__img-team {
+    color: white;
+}
+.sect__main {
+    background-image: url(../img/cookie-star.png);
+    background-repeat: repeat;
+    background-position: right;
+    background-size: 300px 300px;
+}
+.ftr__content {
+    text-align: left;
+}
+.about-span {
+    font-weight: 600;
+}
+.about_main-content {
+    padding-top: 30px;
+}
+.map-toggle_span {
+    text-align: center;
+    align-items: center;
+}
+.map-position_txt {
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 600;
+}
+.main-map {
+    background-color: white;
+}
+.map-tgl {
+    image-orientation: flip;
+}
+.map--button {
+    align-items: center;
+    text-align: center;
+}
+button {
+    color: white;
+    font-weight: 600;
+    max-width: 150px;
+    height: 50px;
+    background-color: chocolate;
+    margin-bottom: 30px;
+}
+button:hover {
+    transform: scale(1.25);
+    transition-duration: 0.7s;
+}
+.email {
+    text-decoration: none;
+    color: white;
+}
+.email:hover {
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+footer {
+    background-color: rgb(168, 139, 118);
+    color: white;
+    font-weight: 600;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.cntr {
+    text-align: center;
+    padding-top: 10px;
+}
+.cntr {
+    padding-bottom: 25px;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+.team--photos {
+    align-items: center;
+    align-content: center;
+    padding-left: 450px;
+}
+.name--lev {
+    text-decoration: none;  
+    margin-left: 500px;
+    color: black;
+    font-weight: 900;
+}
+.name--egor {
+    text-decoration: none;
+    margin-left: 110px;
+    color: black;
+    font-weight: 900;
+}
+.name--dima {
+    text-decoration: none;
+    margin-left: 80px;
+    color: black;
+    font-weight: 900;
+}
+.name--vlad {
+    text-decoration: none;
+    margin-left: 65px;
+    color: black;
+    font-weight: 700;
+}
+.contacts {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 4px;
+}
+.c-in_cercle {
+    font-weight: 0;
+}
+.contacts_us {
+    text-align: center;
+    font-weight: 600;
+}
+.contacts--hr {
+    align-items: center;
+    margin-left: 731px;
+}
+.links {
+    margin-bottom: 30px;
+    font-weight: 800;
+    color: chocolate
+}
+.links:hover {
+    color: orangered;
+    transform: scale(1.25);
+    transition-duration: 0.7s;
+}
+.links-logo:hover {
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+.contact-lev {
+    margin-top: 20px;
+    max-width: 390px;
+}
+.com-with_me:hover {
+    border-bottom: 2px solid chocolate;
+    border-top: 2px solid chocolate;
+}
+.name--lev:hover {
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+.name--egor:hover {
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+.name--dima:hover {
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+.name--vlad:hover {
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+.contact-lev:hover {
+    transform: scale(1.15);
+    transition-duration: 0.7s;
+    max-width: 390px;
+    height: 25px;
+    margin-left: 20px;
+}
+.contact-egor:hover {
+    transform: scale(1.15);
+    transition-duration: 0.7s;
+    max-width: 475px;
+    height: 25px;
+    margin-left: 20px;
+}
+.contact-dima:hover {
+    transform: scale(1.15);
+    transition-duration: 0.7s;
+    max-width: 360px;
+    height: 25px;
+    margin-left: 20px;  
+}
+.contact-vlad:hover {
+    transform: scale(1.15);
+    transition-duration: 0.7s;
+    max-width: 475px;
+    height: 25px;
+    margin-left: 20px;    
+}
+.team__div{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 40px;
+}
+h2 {
+    text-align: center;
+    margin-top: -5px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+.section-special-menu {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: -5px;
+}
+.cookie-item {
+    margin: 30px;
+}
+.section-main-name {
+    color: white;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-bottom: 45px;
+    margin-top: 20px;
+    max-width: 200px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.section-main-name:hover {
+    border-right: 3px double white;
+    border-left: 3px double white;
+}
+.cookie-item {
+    max-width: 250px;
+    height: 250px;
+    margin-left: 90px;
+}
+.cookie-item:hover {
+    transform: rotate(90deg);
+    transition: 1.5s;
+}
+.cookie-text {
+    color: grey;
+    padding: 10px;
+}
+.arahis {
+    margin-left: 115px;
+}
+.arahis:hover {
+    color: white;
+}
+.myata-and-arahis {
+    margin-left: 175px;
+}
+.myata-and-arahis:hover {
+    color: white;
+}
+.chocolate {
+    margin-left: 155px;
+}
+.chocolate:hover {
+    color: white;
+}
+.chocolate-with-arahis {
+    margin-left: 150px;
+}
+.chocolate-with-arahis:hover {
+    color: white;
+}
+.section-special-menu__main-cookies {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.into-a-basket1 {
+    margin-left: 165px;
+}
+.into-a-basket2 {
+    margin-left: 285px;
+}
+.into-a-basket3 {
+    margin-left: 275px;
+}
+.into-a-basket4 {
+    margin-left: 285px;
+}
+.order {
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.order-packing {
+    margin-left: 20px;
+}
+.username {
+    font-weight: 675;
+}
+.place-an-order {
+    font-weight: 500;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.place-an-order:hover {
+    border: 3px dotted chocolate;
+}
+.password-for-account {
+    font-weight: 675;
+}
+.forgot-password {
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+    margin-top: -20px;
+}
+.done {
+    background-color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+button {
+    text-decoration: none;
+    color: white;
+}
+.sweety {
+    margin-left: 300px;
+}
+.sweety1 {
+    margin-left: 200px;
+}
+a .btn-order {
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 400px) {
+    .container {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    .section_main-cookiie img {
+        margin-left: -200px;
+    }
+    .section_main-cookiie video {
+        margin-left: -200px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .main__txt {
+        font-size: 16px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .section_main-cookiie img {
+        margin-left: -110px;
+    }
+    .section_main-cookiie video {
+        margin-left: -110px;
+    }
+}
